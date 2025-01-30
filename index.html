@@ -26,6 +26,9 @@
                     colors: {
                         clifford: '#da373d',
                     }
+                    fontFamily:{
+                        manrope: {'Manrope', 'sans-serif'},
+                    }
                 }
             }
         }
@@ -33,7 +36,7 @@
 
 </head>
 
-<body>
+<body class="manrope">
 
     <!-- main contents -->
     <main class="max-w-screen-xl mx-auto px-7 lg:px-20 ">
@@ -114,10 +117,7 @@
                     </div>
 
                 </div>
-
-                <div>
-
-                </div>
+            </div>
 
         </section>
 
@@ -160,6 +160,7 @@
         </section>
 
         <!-- super clients -->
+
         <section class="mb-24">
             <div
                 class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white px-5 lg:px-12 items-center">
@@ -177,10 +178,9 @@
                 <div class="relative py-24">
 
 
-                     <!-- upper card -->
-                     <div class="absolute z-10 top-48 md:top-52">
-                        <div
-                            class="h-48 bg-white text-black rounded-lg w-full md:w-3/4 flex items-center px-5">
+                    <!-- upper card -->
+                    <div class="absolute z-10 top-48 md:top-52">
+                        <div class="h-48 bg-white text-black rounded-lg w-full md:w-3/4 flex items-center px-5">
                             <div class="absolute -top-6 -left-6 bg-white rounded-full">
                                 <img class="p-1" src="images/client.png" alt="">
                             </div>
@@ -232,9 +232,160 @@
 
         </section>
 
+        <!-- News & event -->
 
+        <section class="py-4 lg:py-7">
+            <div class="text-center mb-2">
+                <h1 class="text-3xl md:text-4xl font-bold mb-3">News & Events</h1>
+                <p class="text-gray-600 mx-auto max-w-4xl mb-6">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form,<br>
+                    by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-start mb-10">
+                <div class="border-2 rounded-lg bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4 mb-3" src="images/news-1.png" alt="">
+                    <div class="p-5 mb-3">
+                        <p class="text-gray-600 mb-3">Feb 05, 2027</p>
+                        <h3 class="font-bold text-xl mb-3">Collecting 8 points for <br>
+                            discount</h3>
+                        <p class="text-gray-600 mb-3">There are many variations of passages of Lorem Ipsum available.
+                        </p>
+                        <p class="font-semibold">Learn More</p>
+                    </div>
+
+                </div>
+                <div class="border-2 rounded-lg bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4 mb-3" src="images/news-2.png" alt="">
+                    <div class="p-5 mb-3">
+                        <p class="text-gray-600 mb-3">Feb 05, 2027</p>
+                        <h3 class="font-bold text-xl mb-3">Collecting 8 points for <br>
+                            discount</h3>
+                        <p class="text-gray-600 mb-3">There are many variations of passages of Lorem Ipsum available.
+                        </p>
+                        <p class="font-semibold">Learn More</p>
+                    </div>
+
+                </div>
+                <div class="border-2 rounded-lg bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4" src="images/news-3.png" alt="">
+                    <div class="p-5 mb-3">
+                        <p class="text-gray-600 mb-3">Feb 05, 2027</p>
+                        <h3 class="font-bold text-xl mb-3">Collecting 8 points for <br>
+                            discount</h3>
+                        <p class="text-gray-600 mb-3">There are many variations of passages of Lorem Ipsum available.
+                        </p>
+                        <p class="font-semibold">Learn More</p>
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                </div>
+
+        </section>
 
     </main>
+
+
+    <!-- footer -->
+
+    <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
+        <div class="w-8/12 mx-auto">
+            <div class="flex justify-between mb-8">
+                <img class="mb-8" src="images/cup.png" alt="">
+                <div class="flex items-center gap-2">
+                    <h4>Ready to get strated?</h4>
+                    <button
+                        class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-4 py-3 rounded-lg font-bold text-white ">Get
+                        Started</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- first column -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a class="hover:text-orange-600" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-600" href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-600" href="#">Insurance</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-600" href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- second column -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Our Service</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a class="hover:text-orange-600" href="#">Life Insurance</a>
+                        </li>
+                        <i>
+                            <a class="hover:text-orange-600" href="#">Car Insurance</a>
+                            </li>
+                            <li>
+                                <a class="hover:text-orange-600" href="#">Health Insurance</a>
+                            </li>
+                            <li>
+                                <a class="hover:text-orange-600" href="#">House Insurance</a>
+                            </li>
+                        </i>
+                    </ul>
+                </div>
+
+                <!-- third column -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Help</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a class="hover:text-orange-600" href="#">FAQs</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-600" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- fourth column -->
+
+                <div>
+                    <h3 class="font-semibold text-lg mb-3">Subscribe to our newsletter</h3>
+                    <div class="flex flex-col space-y-2">
+                        <input placeholder="Email Address" type="text"
+                            class="bg-transparent border-b-2 border-black w-4/6">
+                        <i
+                            class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 inline-flex rounded-full text-white justify-center items-center">
+                        </i>
+                        <div class="flex justify-between w-2/5 mb-2 mt-8">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-center pt-4 mt-4">
+                <p class="text-sm text-gray-600">© 2027 UIDesign.to - All rights reserved.</p>
+            </div>
+
+        </div>
+
+    </footer>
 
 </body>
 
